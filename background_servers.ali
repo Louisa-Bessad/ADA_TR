@@ -1,0 +1,106 @@
+V "GNAT Lib v4.6"
+A -g
+P LC QP TF  SS ZX
+R nnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U background_servers%b	background_servers.adb	237a877d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W events%s		events.adb		events.ali
+W io%s			io.adb			io.ali
+W periodic_tasks%s	periodic_tasks.adb	periodic_tasks.ali
+W system%s		system.ads		system.ali
+W tasks%s		tasks.adb		tasks.ali
+
+U background_servers%s	background_servers.ads	aca7604f EE NE OO PK
+W tasks%s		tasks.adb		tasks.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-reatim.ads		20090409150019 63f07669
+D a-retide.ads		20090409150019 081cdaa4
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-unccon.ads		20070406091342 f9eb8f06
+D background_servers.ads  20140625141558 68198d2e
+D background_servers.adb  20141009134933 a17c57d1
+D events.ads		20140625141558 c324af27
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D io.ads		20140625141558 26f4717a
+D periodic_tasks.ads	20140625141558 89ea18e4
+D system.ads		20140416172212 2d1a1afa
+D s-atacco.ads		20090409150019 1dc856ad
+D s-exctab.ads		20090417131547 66e51330
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-taprob.ads		20090409150019 502249e3
+D s-tpoben.ads		20090409150019 e8374469
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D tasks.ads		20140625141558 c4beed61
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r34 2r6 2r34
+X 2 a-except.ads
+55K13*Exceptions 370e19 11|1w10 1r38
+X 5 a-reatim.ads
+39K13*Real_Time 139e18 11|2w10 2r38
+41O9*Time
+46O9*Time_Span
+53V13*Clock{41O9} 11|21s38
+62V13*">"{boolean} 11|21r36
+X 10 background_servers.ads
+3K9*Background_Servers 7l5 7e23 11|9b14 48l5 48t23
+5U14*Main 5>20 11|15b14 46l8 46t12
+5r20 Info{42|29R9} 11|15b20 17r24
+X 11 background_servers.adb
+16r7 E{12|7R9} 23m10 26r22 30r25 32r25 37r36 37r43 41r25
+17r7 S{42|29R9} 28r25 39r25
+X 12 events.ads
+4K9*Events 11|3w6 3r34 12|39e11
+7R9*Event 11|16r11 12|12e14
+9a7*Name{42|19A12} 11|30r27 37r38 41r27
+10o7*Activation{5|41O9} 11|26r24
+11o7*Computation{5|46O9} 11|32r27 37r45
+14a4*Event_Table(7R9) 11|23r15
+15i4*First_Event{integer} 11|23r28 36r24
+16i4*Last_Event{natural} 11|20r13
+32U14*Remove_Event 11|36s10
+X 15 io.ads
+3K9*IO 11|4w6 4r34 15|23e7
+12U14*Put_Header 11|28s10 39s10
+13U14*Put_Time_Span 11|32s10
+14U14*Put_String 11|29s10 30s10 31s10 40s10 41s10 42s10
+17U14*New_Line 11|33s10 43s10
+X 16 periodic_tasks.ads
+3K9*Periodic_Tasks 11|7w6 7r34 16|13e19
+X 17 system.ads
+37K9*System 11|5w6 5r34 17|153e11
+X 42 tasks.ads
+4K9*Tasks 10|1w6 1r27 11|6w6 6r34 42|74e10
+19A12*Task_Name{string}<integer>
+29R9*Task_Info 10|5r27 11|15r27 17r11 42|36e14
+32a7*Name{19A12} 11|28r27 39r27
+59o4*Finalization_Time{5|41O9} 11|21r18 45r19
+62U14*Compute_During_Time_Span 11|37s10
+

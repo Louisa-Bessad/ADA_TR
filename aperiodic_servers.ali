@@ -1,0 +1,97 @@
+V "GNAT Lib v4.6"
+A -g
+P LC QP TF  SS ZX
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U aperiodic_servers%b	aperiodic_servers.adb	7a7b22a8 OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W background_servers%s	background_servers.adb	background_servers.ali
+W deferred_servers%s	deferred_servers.adb	deferred_servers.ali
+W events%s		events.adb		events.ali
+W periodic_tasks%s	periodic_tasks.adb	periodic_tasks.ali
+W polling_servers%s	polling_servers.adb	polling_servers.ali
+W sporadic_servers%s	sporadic_servers.adb	sporadic_servers.ali
+W tasks%s		tasks.adb		tasks.ali
+
+U aperiodic_servers%s	aperiodic_servers.ads	22a8748b EE NE OO PK
+W tasks%s		tasks.adb		tasks.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-unccon.ads		20070406091342 f9eb8f06
+D aperiodic_servers.ads	20140625141558 e61699ea
+D aperiodic_servers.adb	20140625141558 0f586abf
+D background_servers.ads  20140625141558 68198d2e
+D deferred_servers.ads	20140625141558 a8af540d
+D events.ads		20140625141558 c324af27
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D periodic_tasks.ads	20140625141558 89ea18e4
+D polling_servers.ads	20140625141558 1da6072e
+D sporadic_servers.ads	20140625141558 c0555552
+D system.ads		20140416172212 2d1a1afa
+D s-atacco.ads		20090409150019 1dc856ad
+D s-exctab.ads		20090417131547 66e51330
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-linux.ads		20090730092306 47911ab1
+D s-multip.ads		20101011073009 38ac9f73
+D s-osinte.ads		20101127183452 6e2d2e09
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20101018101807 bba781f7
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-tasinf.ads		20090409150019 21316953
+D s-taspri.ads		20080408071349 af44aca8
+D s-taprop.ads		20090409150019 07f79e46
+D s-taskin.ads		20101021101406 b2eaee08
+D s-taprob.ads		20090409150019 502249e3
+D s-tpoben.ads		20090409150019 e8374469
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D tasks.ads		20140625141558 c4beed61
+X 9 aperiodic_servers.ads
+3K9*Aperiodic_Servers 10l5 10e22 10|9b14 49l5 49t22
+5U14*Create 5>22 10|17b14 25l8 25t14
+5r22 T{44|29R9} 10|17b22 24r17
+7U14*Activate 10|31b14 38l8 38t16
+8U14*Finalize 10|44b14 47l8 47t16
+X 10 aperiodic_servers.adb
+11r4 Server{44|29R9} 21r10 24m7
+X 11 background_servers.ads
+3K9*Background_Servers 10|1w6 1r30 34r33 11|7e23
+5U14*Main 10|34r52
+X 12 deferred_servers.ads
+3K9*Deferred_Servers 10|2w6 2r30 36r33 12|7e21
+5U14*Main 10|36r50
+X 13 events.ads
+4K9*Events 10|6w6 6r30 13|39e11
+25U14*Produce_Event_Table 10|33s7
+X 16 periodic_tasks.ads
+3K9*Periodic_Tasks 10|7w6 7r30 16|13e19
+11U14*Add 10|34s7 35s7 36s7 37s7
+X 17 polling_servers.ads
+3K9*Polling_Servers 10|3w6 3r30 37r33 17|7e20
+5U14*Main 10|37r49
+X 18 sporadic_servers.ads
+2K9*Sporadic_Servers 10|4w6 4r30 35r33 18|4e21
+3U14*Main 10|35r50
+X 44 tasks.ads
+4K9*Tasks 9|1w6 1r25 10|5w6 5r30 44|74e10
+14n7*K_Background_Server{10E9} 10|34r12
+15n7*K_Polling_Server{10E9} 10|37r12
+16n7*K_Deferred_Server{10E9} 10|36r12
+17n7*K_Sporadic_Server{10E9} 10|35r12
+29R9*Task_Info 9|5r26 10|11r13 17r26 44|36e14
+41r4*Null_Task{29R9} 10|11r26 21r20
+
